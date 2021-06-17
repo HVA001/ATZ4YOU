@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+h1,h2,h3,h4,h5,h6,p,body{font-family: 'Gotu', sans-serif;}
+topbar{display: flex;justify-content:space-around ;width: 100%;padding: 5px; background-color: cyan;color: aliceblue}
+topbar a{color: aliceblue}
+nav{justify-content: space-around}
+nav .size{font-size: 36px}
+button{border: none;}
+.font-color1{font-size: 24px;color: cyan}
+.font-color2{font-size: 24px;color:gold}
+main .color{color: cyan}
+main .color2{color: gold;font-size: 21px}
+main .line{color: darkgray ;text-decoration: line-through}
+main .button-color{background-color: cyan;color: aliceblue;border: none;padding: 5px;border-radius: 0.25rem }
+main .button-color:hover{background-color: cyan;color: gold;border: none}
+footer input{width: 75%;padding: 5px 0;border-radius: 0.75rem 0 0 0.75rem;border: 1px solid #555;;outline: none}
+footer button{background-color: cyan; color: aliceblue;width: 10%;padding: 9px 0;border-radius: 0 0.75rem 0.75rem 0;border: 1px solid #555;;outline: none}
+footer .size{font-size: 36px}
+footer a{color: darkgray}
+footer a:hover{color: black}
